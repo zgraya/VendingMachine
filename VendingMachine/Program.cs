@@ -4,9 +4,13 @@ namespace VendingMachine
 {
     class Program
     {
-        static void Main(string[] args)
+        private VendingMachine NewMachine = new VendingMachine(); 
+
+        public void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+
+            
+        }    
+    
     }
 }
